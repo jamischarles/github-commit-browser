@@ -1,0 +1,30 @@
+{
+  "name": "github-commit-browser",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "npm run build && vite preview",
+    "test": "npx playwright test --project=chromium"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.2"
+  },
+  "devDependencies": {
+    "@octokit/rest": "^19.0.5",
+    "@octokit/types": "^8.0.0",
+    "@playwright/test": "^1.27.1",
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.0"
+  },
+  "prettier": {
+    "tabWidth": 2
+  }
+}
